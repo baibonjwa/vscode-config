@@ -4,5 +4,21 @@
     "key": "ctrl+h",
     "command": "-deleteLeft",
     "when": "editorTextFocus && !editorReadonly"
+  }, {
+    "command": "extension.vim_navigateDown",
+    "key": "ctrl+w ctrl+j",
+    "when": "vim.active && vim.use<C-w> && !editorTextFocus"
+  }, {
+    "command": "extension.vim_navigateLeft",
+    "key": "ctrl+w ctrl+h",
+    "when": "vim.active && vim.use<C-w> && !editorTextFocus"
+  }, {
+    "command": "extension.vim_navigateRight",
+    "key": "ctrl+w ctrl+l",
+    "when": "vim.active && vim.use<C-w> && !editorTextFocus"
+  }, {
+    "command": "extension.vim_navigateUp",
+    "key": "ctrl+w ctrl+k",
+    "when": "vim.active && vim.use<C-w> && !editorTextFocus"
   }
 ]
